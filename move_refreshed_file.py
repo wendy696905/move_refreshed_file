@@ -8,7 +8,7 @@ import os
 import shutil
 
 src = r'C:\Users\wendysu\OneDrive - Micron Technology, Inc\GDM\GDM_dashboard\SharePoint_Excel_New'
-dst = r'\\edc.micron.com\twn\FAB030\GDMS\GDMS_dashboard\SharePoint_Excel_New'
+dst = r'dst_folder'
 
 for dirpath,dirnames, filenames in os.walk(src):
     for filename in filenames:
